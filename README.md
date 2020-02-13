@@ -16,7 +16,7 @@ or
 
 ```bash
 path=($HOME/.jenv/bin(N-/) $path) #path to jenv binary folder
-if type jbenv > /dev/null 2>&1; then
+if type jenv > /dev/null 2>&1; then
     zinit ice wait"0" lucid
     zinit light anquegi/zinit-jenv
 fi
